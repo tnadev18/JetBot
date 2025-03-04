@@ -114,6 +114,15 @@ If you are new to Jetson Nano, follow the official NVIDIA guide to set up your d
 
 🔗 [Getting Started with Jetson Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
+### **2. Installing WiFi Driver**  
+
+If you are using the **ZEB-USB150WF1 WiFi USB Mini Adapter** with **Jetson Nano**, you need to install a compatible driver. Follow these steps:  
+
+#### **1. Clone the driver repository**  
+```bash
+git clone https://github.com/1999AZZAR/use-RTL8188FTV-on-linux.git
+
+
 
  
 
