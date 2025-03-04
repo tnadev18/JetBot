@@ -2,4 +2,14 @@
 
 ## Description:
 
-AdaptX is an autonomous system powered by the Jetson Nano, designed for real-time perception, navigation, and decision-making. Equipped with an X2 LiDAR sensor and advanced AI models, AdaptX enables seamless object detection, obstacle avoidance, and path planning in dynamic environments. Whether for robotics, autonomous vehicles, or AI-driven applications, AdaptX provides a modular and efficient framework for edge computing and intelligent automation.
+AdaptX is a modular autonomous system designed for seamless integration with various robotic platforms. Currently, it is being developed using an RC car as a test platform, enabling autonomous navigation, mapping, and object detection. Powered by Jetson Nano, X2 RPLiDAR, and Raspberry Pi V2 Camera, AdaptX leverages cutting-edge AI and SLAM technologies to achieve real-time perception and decision-making.
+
+With a web-based interface built using Flask, users can remotely start and manage key processes such as LiDAR-based mapping and camera-based object detection. The system provides live streaming of object detection and Hector SLAM mapping, making it a versatile solution for robotics and automation applications.
+
+Key Features:
+✅ Autonomous Navigation – SLAM-based path planning and obstacle avoidance.
+✅ Mapping – Real-time mapping using Hector SLAM.
+✅ Object Detection – YOLO-powered object recognition.
+✅ Web Control Interface – Start/stop processes via a Flask-based dashboard.
+✅ Live Streaming – View object detection and SLAM mapping on the web.
+
