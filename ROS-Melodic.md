@@ -126,4 +126,97 @@ rosdep update
 ## 8.Build Farm Status
 The packages that you installed were built by the ROS build farm.
 
+Now as you have installed ROS-Melodic, its time to set and configure ROS Environment.
+
+# Installing and Configuring Your ROS Environment
+
+## Managing ROS Melodic Environment
+
+## Environment Setup
+
+During the installation of ROS, you will see that you are prompted to source setup.*sh files. ROS relies on combining spaces using the shell environment, which makes developing against different versions or sets of packages easier.
+
+### Checking ROS Environment
+
+To verify your ROS environment is properly set up, check the ROS-related environment variables:
+
+```bash
+$ printenv | grep ROS
+```
+
+If no variables are shown, you might need to source the setup files.
+
+### Environment Setup Files
+
+Environment setup files can come from different sources:
+- ROS packages installed with package managers
+- rosbuild workspaces
+- Catkin packages (build or installation by-products)
+
+**Note:** In modern ROS, catkin is the recommended method for organizing and building code, using standard CMake conventions and providing more flexibility.
+
+### Sourcing Setup Files
+
+If you installed ROS from apt on Ubuntu, you can source the setup files like this:
+
+```bash
+$ source /opt/ros/melodic/setup.bash
+```
+
+You'll need to run this command on every new shell or add it to your `.bashrc` to have consistent ROS access. This allows installing multiple ROS distributions on the same computer.
+
+## Create a ROS Workspace
+
+Let's create and build a catkin workspace:
+
+```bash
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/
+$ catkin_make
+```
+
+The `catkin_make` command is a convenience tool for working with catkin workspaces. Running it the first time will create a CMakeLists.txt link in your 'src' folder.
+
+### Python 3 Compatibility (ROS Melodic)
+
+For Python 3 users, use this first catkin_make command:
+
+```bash
+$ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+```
+
+This configures catkin_make with Python 3. Subsequent builds can use standard `catkin_make`.
+
+### Workspace Structure
+
+After running `catkin_make`, you'll see:
+- 'build' folder
+- 'devel' folder with several setup.*sh files
+
+Source the new setup file:
+
+```bash
+$ source devel/setup.bash
+```
+
+Verify the workspace is correctly overlayed:
+
+```bash
+$ echo $ROS_PACKAGE_PATH
+/home/youruser/catkin_ws/src:/opt/ros/melodic/share
+```
+
+### Additional Notes
+
+- This approach works for ROS Groovy and later
+- For earlier versions (ROS Fuerte and before), use rosbuild
+
+## Best Practices
+
+- Always source the appropriate setup file
+- Create separate workspaces for different projects
+- Use `catkin_make` for building your workspace
+- Check environment variables if you encounter package-related issues
+
+
 
