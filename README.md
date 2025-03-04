@@ -128,11 +128,11 @@ For detailed instructions on installing ROS-Melodic on Jetson Nano, refer to the
 
 [ROS-Melodic Installation Guide](ROS-Melodic.md)
 
-### **4.Setup Software to Run Our Car**
+### **4.OpenCV Installation**
 
-For detailed instructions to install all the dependencies required to run the car, refer to the full guide:
+For detailed instructions to install all the dependencies required to run OpenCV, refer to the full guide:
 
-[Car Setup Guide](Car-Setup.md)
+[OpenCV Installation Guide](OpenCV-Installation.md)
 
 
 
