@@ -122,6 +122,15 @@ For detailed instructions on installing the **ZEB-USB150WF1 WiFi USB Mini Adapte
 
 🔗 [WiFi Adapter Installation Guide](./WifiAdapter.md)
 
+### **3.Installing ROS-Melodic on Jetson Nano**
+
+For detailed instructions on installing ROS-Melodic on Jetson Nano, refer to the full guide:
+
+[ROS-Melodic Installation Guide](ROS-Melodic.md)
+
+
+
+
 
 
 
