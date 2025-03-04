@@ -77,5 +77,45 @@ To set up and run **AdaptX**, the following hardware components are required:
 
 This hardware setup ensures **AdaptX functions efficiently** for **autonomous navigation, mapping, and real-time control**.  
 
+## Software Requirements  
+
+To run **AdaptX** smoothly, the following software dependencies and tools are required:  
+
+### **1. Operating System & Environment**  
+- **Ubuntu 18.04/20.04 (JetPack 4.x)** – Official NVIDIA Jetson Nano OS.  
+- **Python 3.x** – Primary programming language for AI, SLAM, and web control.  
+
+### **2. SLAM & Mapping**  
+- **ROS (Robot Operating System) Melodic** – Required for integrating SLAM and sensor data processing.  
+- **Hector SLAM** – Used for real-time LiDAR-based mapping.  
+
+### **3. Object Detection**  
+- **YOLO (You Only Look Once)** – Deep learning-based object detection framework.  
+- **OpenCV** – Used for image processing and object detection.  
+
+### **4. Web-based Control & Communication**  
+- **Flask** – Web framework for controlling LiDAR, camera, and other processes remotely.  
+- **Socket.IO** – Enables real-time communication between the web interface and backend.  
+
+### **5. Peripheral & Hardware Control**  
+- **Jetson.GPIO** – Required for handling GPIO pins on Jetson Nano.  
+- **pySerial** – Enables communication between Jetson Nano and Arduino via serial.  
+
+### **6. Additional Dependencies**  
+- **NumPy, SciPy, Matplotlib** – Essential for data processing and visualization.  
+- **Pip & Virtualenv** – Helps manage Python dependencies.
+
+## Installation & Setup  
+
+This section will guide you through setting up **AdaptX** on your **Jetson Nano**, installing necessary dependencies, and configuring the hardware components.  
+
+### **1. Setting Up Jetson Nano**  
+If you are new to Jetson Nano, follow the official NVIDIA guide to set up your device:  
+
+🔗 [Getting Started with Jetson Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+
+
+ 
+
 
 
