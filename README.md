@@ -120,7 +120,7 @@ If you are using the **ZEB-USB150WF1 WiFi USB Mini Adapter** with **Jetson Nano*
 
 For detailed instructions on installing the **ZEB-USB150WF1 WiFi USB Mini Adapter**, refer to the full guide:  
 
-🔗 [WiFi Adapter Installation Guide](./WiFiAdapter.md)
+🔗 [WiFi Adapter Installation Guide](./WifiAdapter.md)
 
 
 
