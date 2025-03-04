@@ -13,3 +13,19 @@ Key Features :<br>
 ✅ Web Control Interface – Start/stop processes via a Flask-based dashboard.<br>
 ✅ Live Streaming – View object detection and SLAM mapping on the web.
 
+## Table of Contents : 
+Introduction<br>
+Features<br>
+Hardware Requirements<br>
+Software Requirements<br>
+Installation & Setup<br>
+System Architecture<br>
+Usage<br>
+Starting the Web Interface<br>
+Enabling LiDAR & Mapping<br>
+Running Object Detection<br>
+Live Feed & Web Control<br>
+Configuration<br>
+Credits & References<br>
+
+
