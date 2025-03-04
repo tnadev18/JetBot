@@ -1,4 +1,4 @@
-# Setup Software to Run Our Car
+# OpenCV Installation
 
 ## Overview
 This guide will help you set up the dependencies for running a Donkey Car project on a Jetson Nano.
