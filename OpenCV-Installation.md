@@ -42,7 +42,7 @@ sudo fallocate -l 4G /var/swapfile
 sudo chmod 600 /var/swapfile
 
 # Make swap space
-sudo mkswap /var/swapfile
+sudo mkswap /var/snCVwapfile
 
 # Turn on swap
 sudo swapon /var/swapfile
@@ -53,6 +53,11 @@ sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
 # Reboot
 sudo reboot
 ```
+# For actual installation of OpenCV refer the following link:
+
+[Open-CV Installation](https://pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/)
+
+## Below are some points for reference while installation of OpenCV:
 
 ### OpenCV Prerequisites
 
