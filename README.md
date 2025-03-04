@@ -14,15 +14,6 @@ Key Features :<br>
 ✅ Live Streaming – View object detection and SLAM mapping on the web.
 
 
-## Introduction
-
-**AdaptX** is a modular autonomous system designed for seamless integration with various robotic platforms. Currently, it is being developed using a **4-wheel RC car** as a test platform to enable **autonomous navigation, real-time mapping, and object detection**.
-
-Built on the **Jetson Nano** and powered by **X2 RPLiDAR, Raspberry Pi V2 Camera, and Arduino**, AdaptX leverages cutting-edge **AI and SLAM** technologies to achieve real-time perception and intelligent decision-making. The system provides a **web-based interface** using Flask, allowing users to remotely start and manage core processes such as **LiDAR-based mapping** and **camera-based object detection**. The live feed of both **object detection** and **Hector SLAM mapping** is accessible through the web interface, making AdaptX a versatile solution for robotics and automation applications.
-
-This project serves as an **adaptable plug-and-play module** that can be integrated with different robotic platforms in the future, beyond the initial RC car testbed.
-
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -39,4 +30,11 @@ This project serves as an **adaptable plug-and-play module** that can be integra
 - [Credits & References](#credits--references)
 
 
+## Introduction
+
+**AdaptX** is a modular autonomous system designed for seamless integration with various robotic platforms. Currently, it is being developed using a **4-wheel RC car** as a test platform to enable **autonomous navigation, real-time mapping, and object detection**.
+
+Built on the **Jetson Nano** and powered by **X2 RPLiDAR, Raspberry Pi V2 Camera, and Arduino**, AdaptX leverages cutting-edge **AI and SLAM** technologies to achieve real-time perception and intelligent decision-making. The system provides a **web-based interface** using Flask, allowing users to remotely start and manage core processes such as **LiDAR-based mapping** and **camera-based object detection**. The live feed of both **object detection** and **Hector SLAM mapping** is accessible through the web interface, making AdaptX a versatile solution for robotics and automation applications.
+
+This project serves as an **adaptable plug-and-play module** that can be integrated with different robotic platforms in the future, beyond the initial RC car testbed.
 
