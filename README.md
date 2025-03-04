@@ -38,3 +38,44 @@ Built on the **Jetson Nano** and powered by **X2 RPLiDAR, Raspberry Pi V2 Camera
 
 This project serves as an **adaptable plug-and-play module** that can be integrated with different robotic platforms in the future, beyond the initial RC car testbed.
 
+## Features
+
+✅ **Autonomous Navigation** – Uses **SLAM (Simultaneous Localization and Mapping)** for real-time path planning and obstacle avoidance.  
+
+✅ **Real-time Mapping** – Implements **Hector SLAM** with **X2 RPLiDAR** for efficient environment mapping.  
+
+✅ **Object Detection** – Utilizes **YOLO (You Only Look Once)** for real-time object recognition and tracking.  
+
+✅ **Web-based Control** – A **Flask-powered dashboard** allows users to start/stop key processes like LiDAR and camera remotely.  
+
+✅ **Live Data Streaming** – Provides **real-time visualization** of object detection and SLAM mapping through the web interface.  
+
+✅ **Adaptable & Scalable** – Designed as a **modular system**, AdaptX can be integrated with different robotic platforms beyond the initial RC car setup.  
+
+## Hardware Requirements  
+
+To set up and run **AdaptX**, the following hardware components are required:  
+
+### **1. Core Processing Unit**  
+- **Jetson Nano** – The main computing unit for running SLAM, object detection, and web-based control.  
+
+### **2. Sensors & Perception**  
+- **X2 RPLiDAR** – Used for real-time SLAM-based mapping and obstacle detection.  
+- **Raspberry Pi V2 Camera** – Captures video feed for object detection using YOLO.  
+
+### **3. Control & Actuation**  
+- **Arduino** (e.g., Arduino Uno) – Handles motor control and sensor integration.  
+- **L298N Motor Driver** – Controls the movement of the RC car.  
+- **4-Wheel RC Car Chassis** – Serves as the initial test platform for AdaptX.  
+
+### **4. Connectivity**  
+- **WiFi Module** (ZEB-USB150WF1) – Enables wireless communication for the Flask-based web interface.  
+
+### **5. Power Supply**  
+- **Power Adapter (5V/4A for Jetson Nano)** – Required for stable operation.  
+- **Battery Pack** (for RC Car and Peripherals) – Powers the motor driver and additional components.  
+
+This hardware setup ensures **AdaptX functions efficiently** for **autonomous navigation, mapping, and real-time control**.  
+
+
+
